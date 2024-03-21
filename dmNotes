@@ -1,0 +1,122 @@
+commands terminal
+ls
+cd
+pwd
+
+kinit
+
+yt intro basics
+		https://www.youtube.com/watch?v=dMXSxS2BDE0&list=PLVQYiy6xNUxxd5TiZL87_v6JOx61umsUz&index=3
+		
+		1
+		task 1 aceito lx
+kinit not necesarry?
+had to paste public key in intra settings
+could clone afterwards - git
+created folde from console
+copied txt file
+git commit and push
+
+	cs00
+	
+	shel00
+		
+		task ex02
+		
+		hardlink 3 5 
+		
+		link 6 0 
+		soft link no
+		compiling
+		
+		touch -t -h -t
+		
+		truncate or f allocate to change the size ? pointless, just type echo - cat ztrl-d
+		
+		
+		%> mkdir ex03
+%> cd ex03
+
+%> vim midLS
+
+
+ls -mtp
+
+
+
+
+
+
+
+https://projects.intra.42.fr/projects/c-piscine-c-00
+TRANSLATE int to CHAR for write function
+
+    int n = 5;
+    char t = n + '0';
+    write(1, &t, 1);
+
+
+
+STEPS
+
+Norminette must be launched with the -R CheckForbiddenSourceHeader
+flag. Moulinette will use it too.
+Moulinette compiles with these flags: -Wall -Wextra -Werror, and uses cc
+
+steps
+git clone
+create olders
+mkdir ex0... kilka razy
+ex00 do vim xxx.c
+:Stdheader
+#include <unistd.h>
+wchodz w VSCODE
+kopiu reszte
+
+na koniec norminette i poprawianie
+
+ czy nie ma ukrytych plikow i sprawdz ls -R
+ls -R
+
+git ...
+
+
+
+DUVIDO!!!
+czy mgoe miec compiler w vscod??    NMINIE NIE
+czy bede musial cc z consoli w vscode moze?     IDK nie ma sensu
+
+
+2 exam!
+fizz buzz - jak castowac int do string i odwrotnie?
+jak masz 10 to masz 10!\
+
+
+
+
+https://projects.intra.42.fr/c-piscine-c-02/hugo-mar
+
+
+
+#include <stdio.h>
+
+int main (int argc, char* argv[])
+{
+    printf("program name: %s\n", argv[0]);
+
+   if( argc == 3 ) {
+      printf("The arguments supplied is %s\n%s\n", argv[1], argv[2]);
+   }
+   else if( argc > 3 ) {
+      printf("Too many arguments supplied.\n");
+   }
+   else {
+      printf("One argument expected.\n");
+   }
+}
+
+
+c03 e
+4/6 = 50%
+
+		
